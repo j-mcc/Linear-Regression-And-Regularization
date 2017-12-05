@@ -63,6 +63,7 @@ public class LinearRegression {
 	}
 	
 	//standard linear regression
+	//W = Inverse(Transpose(X) * X) * Transpose(X) * Y
 	public void solve(){
 		Matrix data = trainingData.dataAsMatrix();
 		Matrix classes = trainingData.classAsMatrix();
@@ -75,6 +76,7 @@ public class LinearRegression {
 	}
 	
 	//linear regression with regularization
+	//W = Inverse(Transpose(X) * X - LAMBDA * I) * Transpose(X) * Y
 	public void solveWithRegularization(double lambda){
 		Matrix data = trainingData.dataAsMatrix();
 		Matrix classes = trainingData.classAsMatrix();
