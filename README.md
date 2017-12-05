@@ -4,6 +4,7 @@ Sample program output. Randomly generatered training and testing datasets based 
 
 
 --TRAINING DATA SET--
+
 Record #0 :: Y: 19 	Values:	X :: 3.0 
 
 Record #1 :: Y: 14  	Values:	X :: -2.0 
@@ -30,6 +31,7 @@ Record #11 :: Y: 14  	Values:	X :: 2.0
 
 
 --TESTING DATA SET--
+
 Record #0 :: Y: 11  	Values:	X :: 1.0 
 
 Record #1 :: Y: 11  	Values:	X :: -1.0 
@@ -56,9 +58,13 @@ Record #11 :: Y: 59  	Values:	X :: 7.0
 
 
 Linear Regression without Regularization
+
 y = 5.72046109510086 + 7.561959654178675x
+
 MSE(train) = 111.70605187319886
+
 MSE(test) = 236.5152535663171
+
 
 		Lambda( 0.1 ) : In-Sample Error is ( 69.28548380360408 ) : Validation Error is ( 156.00413104701005 )
 		Lambda( 1.0 ) : In-Sample Error is ( 69.93331284961883 ) : Validation Error is ( 148.37939094675284 )
@@ -66,6 +72,10 @@ MSE(test) = 236.5152535663171
 		Lambda( 100.0 ) : In-Sample Error is ( 237.72069006080287 ) : Validation Error is ( 281.79171827064096 )
 
 Linear Regression with Regularization. Lambda is 10.0
+
 y = 2.898185483870967 + 7.690524193548388x
+
 MSE(train) = 117.6983431294442
+
 MSE(test) = 282.01222362908646
+
