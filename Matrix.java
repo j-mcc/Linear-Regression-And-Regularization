@@ -235,6 +235,15 @@ public class Matrix {
 		setCell(inverse, 1, 0, getCell(matrix, 1, 0) * -determinant);
 		return inverse;
 	}
+	
+	//calculates general inverse
+	public static Matrix inverse(Matrix matrix){
+		if(matrix == null) return null;
+		if(getHeight(matrix) != getWidth(matrix)) return null; //not square
+		if(getHeight(matrix) == 2) return inverse2(matrix);
+		Matrix cofactor = getCofactorMatrix(matrix);
+		return scale(transpose(cofactor), 1/determinant(matrix, cofactor));
+	}
 
 	//calculates the determinant of a NxN matrix given its cofactor matrix
 	public static Double determinant(Matrix matrix, Matrix cofactor){
