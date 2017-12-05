@@ -4,32 +4,56 @@ Sample program output. Randomly generatered training and testing datasets based 
 
 
 --TRAINING DATA SET--
-Record #0 :: Y: 19  	Values:	X :: 3.0 
+Record #0 :: Y: 19 	Values:	X :: 3.0 
+
 Record #1 :: Y: 14  	Values:	X :: -2.0 
+
 Record #2 :: Y: 26  	Values:	X :: 4.0 
+
 Record #3 :: Y: 46  	Values:	X :: 6.0 
+
 Record #4 :: Y: 11  	Values:	X :: 1.0 
+
 Record #5 :: Y: 11  	Values:	X :: 1.0 
+
 Record #6 :: Y: 14  	Values:	X :: 2.0 
+
 Record #7 :: Y: 91  	Values:	X :: 9.0 
+
 Record #8 :: Y: 74  	Values:	X :: 8.0 
+
 Record #9 :: Y: 26  	Values:	X :: 4.0 
+
 Record #10 :: Y: 10  	Values:	X :: 0.0 
+
 Record #11 :: Y: 14  	Values:	X :: 2.0 
+
 
 --TESTING DATA SET--
 Record #0 :: Y: 11  	Values:	X :: 1.0 
+
 Record #1 :: Y: 11  	Values:	X :: -1.0 
+
 Record #2 :: Y: 59  	Values:	X :: 7.0 
+
 Record #3 :: Y: 46  	Values:	X :: 6.0 
+
 Record #4 :: Y: 14  	Values:	X :: -2.0 
+
 Record #5 :: Y: 11  	Values:	X :: 1.0 
+
 Record #6 :: Y: 26  	Values:	X :: 4.0 
+
 Record #7 :: Y: 35  	Values:	X :: 5.0 
+
 Record #8 :: Y: 14  	Values:	X :: -2.0 
+
 Record #9 :: Y: 110  	Values:	X :: 10.0 
+
 Record #10 :: Y: 14  	Values:	X :: -2.0 
+
 Record #11 :: Y: 59  	Values:	X :: 7.0 
+
 
 Linear Regression without Regularization
 y = 5.72046109510086 + 7.561959654178675x
